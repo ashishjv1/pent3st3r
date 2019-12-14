@@ -19,4 +19,14 @@ run installation script using ./install-script.sh
 
 Usage
 
-./auto-script.sh
+./auto-script.sh [Options] url 
+
+Options:
+
+-h : This Help Message
+-t : Runs theHarvester
+-c : Runs Crunch
+-r : Runs Rpc_scan
+-o : Runs OnesixtyOne
+-a : All Subdomain Scans at Once
+-B : Brute-force Menu 
