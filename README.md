@@ -16,3 +16,7 @@ clone into the Repository using git clone
 
 cd into cloned directory 
 run installation script using ./install-script.sh
+
+Usage
+
+./auto-script.sh
