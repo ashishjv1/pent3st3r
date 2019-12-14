@@ -313,9 +313,7 @@ run_resolver(){
 }
 run_resolver_for_brute(){
     while read line;do
-        {
-            dig +short $line > ../dir$domain/domains_for_brute.txt
-        }
+         dig +short $line > ../dir$domain/domains_for_brute.txt
     done < ../dir${domain}/domains.txt
 }
 domain=$2
