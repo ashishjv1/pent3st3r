@@ -1,5 +1,5 @@
 # pent3st3r
-A simple bash script to automate kali tools.
+A bash script to automate kali tools.
 
 Discription
 This tool has Multiple Modules 
