@@ -1,4 +1,4 @@
-# brute-scan
+# pent3st3r
 A simple bash script to automate kali tools.
 
 Discription
