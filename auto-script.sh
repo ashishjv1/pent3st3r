@@ -211,7 +211,7 @@ run_brute_mysql_subdomain(){
 }
 
 dns_recon(){
-        dnsrecon -d $domain -D /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -agbkz >> ../dir$domain/domains_recon.txt
+        dnsrecon -d $domain -D /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -ag >> ../dir$domain/domains_recon.txt
         cat ../dir$domain/domains_recon.txt | grep " A " | cut -d "A" -f 2 | cut -d " " -f 2 >> ../dir$domain/domains.txt
 }
 
